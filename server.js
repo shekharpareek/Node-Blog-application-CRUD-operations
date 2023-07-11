@@ -12,7 +12,7 @@ mongoose
   .connect(
     "mongodb+srv://shekharpareek:4Hfrfoo3VmWalJ1C@cluster0.hwbyaq6.mongodb.net/mydatabase?retryWrites=true&w=majority",
     {
-      useNewUrlParser: true,
+      useNewUrlParser: true,  
       useUnifiedTopology: true,
     }
   )
